@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackMesa.Core", "BlackMesa.Core\BlackMesa.Core.csproj", "{B8BB7469-93B2-4689-AD90-43E393F1BC4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackMesa.CanonicalSchema", "BlackMesa.CanonicalSchema\BlackMesa.CanonicalSchema.csproj", "{0E60670B-20C5-41E5-BE9C-E34BD4A55E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackMesa.PreferenceOverview", "BlackMesa.PreferenceOverview\BlackMesa.PreferenceOverview.csproj", "{B8972508-22A9-41CD-B3BC-D0C5407346B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackMesa.PreferenceManagement", "BlackMesa.PreferenceManagement\BlackMesa.PreferenceManagement.csproj", "{E5C4B8DD-1E32-4200-BC00-5402A073E9F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackMesa.QRScanner", "BlackMesa.QRScanner\BlackMesa.QRScanner.csproj", "{7317CD2A-4C32-48E6-9502-CE5673D20456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +21,22 @@ Global
 		{B8BB7469-93B2-4689-AD90-43E393F1BC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8BB7469-93B2-4689-AD90-43E393F1BC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8BB7469-93B2-4689-AD90-43E393F1BC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E60670B-20C5-41E5-BE9C-E34BD4A55E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E60670B-20C5-41E5-BE9C-E34BD4A55E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E60670B-20C5-41E5-BE9C-E34BD4A55E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E60670B-20C5-41E5-BE9C-E34BD4A55E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8972508-22A9-41CD-B3BC-D0C5407346B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8972508-22A9-41CD-B3BC-D0C5407346B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8972508-22A9-41CD-B3BC-D0C5407346B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8972508-22A9-41CD-B3BC-D0C5407346B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C4B8DD-1E32-4200-BC00-5402A073E9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C4B8DD-1E32-4200-BC00-5402A073E9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C4B8DD-1E32-4200-BC00-5402A073E9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C4B8DD-1E32-4200-BC00-5402A073E9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7317CD2A-4C32-48E6-9502-CE5673D20456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7317CD2A-4C32-48E6-9502-CE5673D20456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7317CD2A-4C32-48E6-9502-CE5673D20456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7317CD2A-4C32-48E6-9502-CE5673D20456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
