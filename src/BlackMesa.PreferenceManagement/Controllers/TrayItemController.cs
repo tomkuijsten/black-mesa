@@ -14,6 +14,7 @@ namespace BlackMesa.PreferenceManagement.Controllers
         private static TrayItemController _instance;
         private System.ComponentModel.Container _components;
         private NotifyIcon _notifyIcon;
+        public Action ShutDown;
 
         public static TrayItemController Instance
         {
@@ -47,13 +48,28 @@ namespace BlackMesa.PreferenceManagement.Controllers
                 Text = "Kewl",
                 Visible = true
             };
-            _notifyIcon.ContextMenuStrip.Opening += ContextMenuStrip_Opening;
+
+            _notifyIcon.ContextMenu = new ContextMenu();
+
+
+            var j = new MenuItem("Shutdown");
+            j.Click += j_Click;
+            _notifyIcon.ContextMenu.MenuItems.Add(j);
+
+            var i = new MenuItem("Configure");
+            i.Click += i_Click;
+            _notifyIcon.ContextMenu.MenuItems.Add(i);
         }
 
-        void ContextMenuStrip_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+        void i_Click(object sender, EventArgs e)
         {
-            _notifyIcon.ContextMenu = new ContextMenu();
-            _notifyIcon.ContextMenu.MenuItems.Add(new MenuItem("blabla"));
+            MainWindow m = new MainWindow();
+            m.Show();
+        }
+
+        void j_Click(object sender, EventArgs e)
+        {
+            App.Current.Shutdown();
         }
     }
 }
